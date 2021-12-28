@@ -39,6 +39,12 @@ namespace WombooVehicle
                 return;
             }
 
+            if(Womboos.Contains(pVehicle.Handle))
+            {
+                GTA.UI.Screen.ShowHelpText("Womboo features are already actived.");
+                return;
+            }
+
             Womboos.Add(new Womboo(pVehicle));
 
             GTA.UI.Screen.ShowHelpText("Womboo features actived.");
