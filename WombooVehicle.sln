@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WombooVehicle", "WombooVehicle\WombooVehicle.csproj", "{375CC3E6-17F4-44B6-810F-BEED6BF1D316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Debug|x64.ActiveCfg = Release|x64
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Debug|x64.Build.0 = Release|x64
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Release|x64.ActiveCfg = Release|x64
+		{375CC3E6-17F4-44B6-810F-BEED6BF1D316}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239C8E32-9D26-49EB-942F-720FFEDFC646}
+	EndGlobalSection
+EndGlobal
