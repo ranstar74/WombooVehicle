@@ -14,23 +14,26 @@ namespace WombooVehicle.Core
         public Vehicle Vehicle => _vehicle;
 
         private readonly Vehicle _vehicle;
+        private readonly WombooComponents _components;
 
         /// <summary>Creates a new <see cref="Womboo"/> instance from given vehicle.</summary>
         public Womboo(Vehicle vehicle)
         {
             _vehicle = vehicle;
-        }
-
-        /// <summary>Disposes this <see cref="Womboo"/> and <see cref="Vehicle"/>.</summary>
-        public void Dispose()
-        {
-            _vehicle.Delete();
+            _components = new WombooComponents(this);
         }
 
         /// <summary>Gets all Womboo components.</summary>
         public ComponentCollection GetComponents()
         {
-            throw new NotImplementedException();
+            return _components;
+        }
+
+
+        /// <summary>Disposes this <see cref="Womboo"/> and <see cref="Vehicle"/>.</summary>
+        public void Dispose()
+        {
+            _vehicle.Delete();
         }
     }
 }
