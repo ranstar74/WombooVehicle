@@ -13,6 +13,15 @@ namespace WombooVehicle
         public Main()
         {
             KeyDown += Main_KeyDown;
+            Aborted += Main_Aborted;
+        }
+
+        private void Main_Aborted(object sender, System.EventArgs e)
+        {
+            // No need to do it in our case because we don't have
+            // any unmanaged resource
+
+            // Womboos.DisposeAllAndClear();
         }
 
         private void Main_KeyDown(object sender, KeyEventArgs e)
@@ -31,6 +40,8 @@ namespace WombooVehicle
             }
 
             Womboos.Add(new Womboo(pVehicle));
+
+            GTA.UI.Screen.ShowHelpText("Womboo features actived.");
         }
     }
 }
