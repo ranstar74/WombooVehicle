@@ -66,7 +66,7 @@ namespace WombooVehicle.Core
         {
             if (Game.IsControlPressed(Control.Jump))
             {
-                Womboo.Vehicle.Velocity += Womboo.Vehicle.UpVector * 5;
+                Womboo.Vehicle.Velocity += Womboo.Vehicle.UpVector * 2.5f;
             }
         }
     }
